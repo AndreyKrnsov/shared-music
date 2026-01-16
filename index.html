@@ -8,9 +8,9 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            background: #121212;
             min-height: 100vh;
-            color: #2d3436;
+            color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -20,29 +20,26 @@
         .playlists {
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 12px;
         }
         .playlist-card {
-            background: rgba(255,255,255,0.85);
-            border: 1px solid rgba(0,0,0,0.08);
-            border-radius: 16px;
-            padding: 25px 30px;
+            background: #282828;
+            border-radius: 8px;
+            padding: 20px 24px;
             text-decoration: none;
-            color: #2d3436;
-            transition: transform 0.2s, box-shadow 0.2s;
+            color: #fff;
+            transition: background 0.2s;
             display: flex;
             align-items: center;
-            gap: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            gap: 16px;
         }
         .playlist-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+            background: #333;
         }
         .playlist-emoji { font-size: 2rem; }
         .playlist-info { text-align: left; }
-        .playlist-title { font-size: 1.2rem; font-weight: 600; margin-bottom: 5px; }
-        .playlist-meta { opacity: 0.6; font-size: 0.9rem; }
+        .playlist-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
+        .playlist-meta { opacity: 0.6; font-size: 0.85rem; color: #b3b3b3; }
     </style>
 </head>
 <body>
@@ -52,7 +49,7 @@
                 <div class="playlist-emoji">❄️</div>
                 <div class="playlist-info">
                     <div class="playlist-title">Январь 2026</div>
-                    <div class="playlist-meta">17 треков • Hip-Hop, Electronic, Rock, Classics</div>
+                    <div class="playlist-meta">18 треков • Hip-Hop, Pop, R&B, Rock, Soul</div>
                 </div>
             </a>
         </div>
