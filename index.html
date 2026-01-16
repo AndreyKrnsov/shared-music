@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎵 Музыка от Андрея</title>
+    <title>🎵 Музыка</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -16,20 +16,7 @@
             justify-content: center;
             padding: 40px 20px;
         }
-        .container { max-width: 500px; text-align: center; }
-        h1 { 
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-            background: linear-gradient(90deg, #e17055, #d63031, #6c5ce7, #0984e3);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .subtitle {
-            opacity: 0.7;
-            margin-bottom: 50px;
-            font-size: 1.1rem;
-            color: #636e72;
-        }
+        .container { max-width: 500px; width: 100%; }
         .playlists {
             display: flex;
             flex-direction: column;
@@ -56,18 +43,10 @@
         .playlist-info { text-align: left; }
         .playlist-title { font-size: 1.2rem; font-weight: 600; margin-bottom: 5px; }
         .playlist-meta { opacity: 0.6; font-size: 0.9rem; }
-        .footer {
-            margin-top: 60px;
-            opacity: 0.5;
-            font-size: 0.85rem;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎧 Музыка от Андрея</h1>
-        <p class="subtitle">Подборки треков для друзей</p>
-        
         <div class="playlists">
             <a href="./january-2026/" class="playlist-card">
                 <div class="playlist-emoji">❄️</div>
@@ -76,10 +55,6 @@
                     <div class="playlist-meta">17 треков • Hip-Hop, Electronic, Rock, Classics</div>
                 </div>
             </a>
-        </div>
-        
-        <div class="footer">
-            Сделано с 💜
         </div>
     </div>
 </body>
