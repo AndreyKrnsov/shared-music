@@ -21,6 +21,19 @@
             color: #fff;
             font-weight: 700;
         }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: #b3b3b3;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            transition: color 0.2s;
+        }
+        .back-link:hover {
+            color: #fff;
+        }
         .genre-section {
             margin-bottom: 50px;
         }
@@ -41,13 +54,11 @@
             margin-left: 15px;
         }
         .track {
-            margin-bottom: 16px;
+            margin-bottom: 14px;
         }
-        .spotify-embed iframe {
-            width: 100%;
-            height: 152px;
-            border: none;
-            border-radius: 12px;
+        .track-title {
+            font-size: 1rem;
+            font-weight: 600;
         }
         .links { 
             display: flex; 
@@ -85,6 +96,7 @@
 </head>
 <body>
     <div class="container">
+        <a class="back-link" href="../">← На главную</a>
         <h1>🎧 Январь 2026</h1>
         
         <!-- HIP-HOP -->
@@ -92,62 +104,52 @@
             <div class="genre-title">🎤 Hip-Hop / Rap</div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/4tU1vbxn9rvUv9VuAUXERx" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/watch?list=OLAK5uy_mO-Wq7o6r5NoJNPNQXzkuluyhoVLFBvXQ&v=7L4JnAuW00k" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Danny Brown — Ain’t it Funny</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/4dmh3OPtAhbEybhGoOG9TE" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
+                <div class="track-title">clipping. — Nothing is Safe</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/7v3rmoy5jcn4h5UqwQyCM3" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
+                <div class="track-title">GZA — Liquid Swords</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/3XS5GrXF0XdvhcNYmq8v7W" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/watch?list=OLAK5uy_nWHSgzxuQjrOSNsAmCBRTNjdoYoAUd57w&v=PVbQrvlB_gw" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Eminem — Framed</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/2PlkjqEiZST0XOxMf5DUro" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
+                <div class="track-title">Yung Lean — Ginseng Strip 2002</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/0VX2gHdYPuirhzsat73BUi" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/watch?list=OLAK5uy_mPu8UgbeI4Ad6aNzquiXcr4ZpOaz6-YDA&v=YRpGFi8-0FE" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Klashnekoff — Sayonara</div>
+            </div>
+
+            <div class="track">
+                <div class="track-title">Dirty Dike — Hi I’m James</div>
             </div>
         </div>
         
-        <!-- EXPERIMENTAL / NOISE -->
+        <!-- POP / R&B -->
         <div class="genre-section">
-            <div class="genre-title">🔊 Experimental / Noise</div>
+            <div class="genre-title">💗 Pop / R&amp;B (incl. Alt R&amp;B)</div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/52UthFOfrbtnjBMK6jyLqk" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.yandex.ru/translate/track/38568947" class="yandex" target="_blank">Яндекс Музыка</a>
-                </div>
+                <div class="track-title">Magdalena Bay — Image</div>
+            </div>
+
+            <div class="track">
+                <div class="track-title">Magdalena Bay — Cry for Me</div>
+            </div>
+
+            <div class="track">
+                <div class="track-title">RAYE — Escapism.</div>
+            </div>
+
+            <div class="track">
+                <div class="track-title">FKA twigs — Striptease</div>
             </div>
         </div>
         
@@ -156,61 +158,7 @@
             <div class="genre-title">⚡ Electronic</div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/4bQ7mjty0UVlKRalhizpGT" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-            </div>
-            
-            <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/0ydgtGSPfVNtsLVUTqvOZU" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-            </div>
-        </div>
-        
-        <!-- SYNTH-POP / INDIE POP -->
-        <div class="genre-section">
-            <div class="genre-title">✨ Synth-Pop / Indie Pop</div>
-            
-            <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/0QW0KPBXXv67haGjbtkRRB" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/playlist?list=PLXHcoU89tUqWG-vtws_q-7OJk-usytdmD" class="youtube" target="_blank">YouTube Music</a>
-                </div>
-            </div>
-            
-            <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/4rVs9KjC3YVA7v54kVSHUV" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/watch?list=OLAK5uy_nKkCgJbt4AdugVJvYyQBhPHPmqhrFvQBQ&v=Xcq3xMCcGlI" class="youtube" target="_blank">YouTube Music</a>
-                </div>
-            </div>
-            
-            <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/5Z2MiIZ5I3jJvvmeWMLbOQ" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/watch?list=RDCLAK5uy_l1gMPJiNcAr_Fie2uXiJfMNvlGWMx3XU4&v=Dll6VJ2C7wo" class="youtube" target="_blank">YouTube Music</a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- R&B / ART POP -->
-        <div class="genre-section">
-            <div class="genre-title">💜 R&B / Art Pop</div>
-            
-            <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/5kILHrfMHQ4eFHZqnu4yY3" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/watch?list=OLAK5uy_nQ6rNoZY6JEoZ493vscP8ZlKgk8ddL-hQ&v=wZ2njttY3BA" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Crystal Castles — Vanished</div>
             </div>
         </div>
         
@@ -219,53 +167,37 @@
             <div class="genre-title">🎸 Rock</div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/6S3JlDAGk3uu3NtZbPnuhS" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.yandex.ru/album/1694108/track/953556" class="yandex" target="_blank">Яндекс Музыка</a>
-                    <a href="https://music.youtube.com/watch?list=PLhuq4C5cixDxl3qgEW3HnkG3yjtUKhtoQ&v=1no0UM8OAUQ" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Badfinger — Baby Blue</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/2EoOZnxNgtmZaD8uUmz2nD" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.youtube.com/watch?list=RDCLAK5uy_n4nQnHcu8HSMwBu2fiX3cOWUopULmLc8E&v=3mbBbFH9fAg" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Soundgarden — Black Hole Sun</div>
             </div>
         </div>
         
-        <!-- CLASSICS / SOUL -->
+        <!-- SOUL / TRADITIONAL POP -->
         <div class="genre-section">
-            <div class="genre-title">🎺 Classics / Soul</div>
+            <div class="genre-title">🎺 Soul / Traditional Pop</div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/3spdoTYpuCpmq19tuD0bOe" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.yandex.ru/album/305664/track/2836676" class="yandex" target="_blank">Яндекс Музыка</a>
-                    <a href="https://music.youtube.com/watch?index=0&list=OLAK5uy_lNaSC6pAF6tludern8ng43h74NNbJz8lQ&v=w019MzRosmk" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Stevie Wonder — I Just Called To Say I Love You</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/0kVE2yBjTwnFqbsrXRKg5Y" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div class="links">
-                    <a href="https://music.yandex.com/artist/49522/tracks" class="yandex" target="_blank">Яндекс Музыка</a>
-                    <a href="https://music.youtube.com/watch?list=PLz_0RKVB0zZ7TD3U6DSC_nQO323W3grT9&v=VtPLdL5GWDg" class="youtube" target="_blank">YouTube Music</a>
-                </div>
+                <div class="track-title">Frank Sinatra — My Way</div>
+            </div>
+        </div>
+        
+        <!-- WORLD / VINTAGE -->
+        <div class="genre-section">
+            <div class="genre-title">🌍 World / Vintage</div>
+            
+            <div class="track">
+                <div class="track-title">Quartetto Cetra — Crapapelada</div>
             </div>
             
             <div class="track">
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/track/6IHQYCcVjN6byEKKsx5n1K" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
+                <div class="track-title">The Jackal — Pa Pa Li Soldier</div>
             </div>
         </div>
         
